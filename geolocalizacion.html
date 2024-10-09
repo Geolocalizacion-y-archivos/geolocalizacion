@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPS- GeoMedia</title>
+  <meta name="theme-color" content="#fffbfe">
+  <link rel="icon" sizes="32x32" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="ungap/custom-elements.js"></script>
+  <script type="module" src="js/configura.js"></script>
+  <!-- <link rel="stylesheet" href="css/transicion_pestanas.css">
+  <link rel="expect" blocking="render" href="#navtabfixed"> -->
+</head>
+
+<body>
+
+  <main>
+    <nav-tab-fixed id="tab"></nav-tab-fixed>
+  
+  
+   <h1 class="mdc-typography--headline1" style="text-align:center;">GPS</h1>
+
+ <p>
+  <label >
+   Latitud
+   <output id="latitud"></output>
+  </label>
+ </p>
+
+ <p>
+  <label>
+   Longitud
+   <output id="longitud"></output>
+  </label>
+ </p>
+
+ <script>
+
+  navigator.geolocation.
+   watchPosition(p => {
+
+    latitud.value =
+     p.coords.latitude
+
+    longitud.value =
+     p.coords.longitude
+
+   });
+
+ </script>
+
+</body>
+
+</html>

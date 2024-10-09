@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Archivos y Cámara - GeoMedia</title>
+  <meta name="theme-color" content="#fffbfe">
+  <link rel="icon" sizes="32x32" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="ungap/custom-elements.js"></script>
+  <script type="module" src="js/configura.js"></script>
+  <!-- <link rel="stylesheet" href="css/transicion_pestanas.css">
+  <link rel="expect" blocking="render" href="#navtabfixed"> -->
+</head>
+
+<body>  
+  
+  <main>
+  <nav-tab-fixed id="tab"></nav-tab-fixed>
+
+
+ <h1 class="mdc-typography--headline1" style="text-align:center;">Archivos y Cámara</h1>
+
+ <p>
+  <label class="md-filled-text-field mdc-text-field-file">
+   <input type="file"
+     accept="image/*"
+     capture="camera" class="mdc-text-field__input mdc-file-input">
+    <label for="file-input" class="mdc-text-field__label">Foto de Móvil</label>
+  </label>
+ </p>
+
+ <p>
+  <label class="md-filled-text-field">
+   <input type="file"
+     accept="video/*"
+     capture="" class="mdc-text-field__input mdc-file-input">
+     <label for="file-input" class="mdc-text-field__label">Video de Móvil</label>
+  </label>
+ </p>
+
+ <p>
+  <label class="md-filled-text-field">
+   <input type="file" class="mdc-text-field__input mdc-file-input">
+   <label for="file-input" class="mdc-text-field__label">Archivo</label>
+  </label>
+ </p>
+</main>
+</body>
+
+</html>
