@@ -12,23 +12,23 @@ export class NavBar extends HTMLElement {
    </a>
 
    <a ${resaltaSiEstasEn(["/geolocalizacion.html"])} href="geolocalizacion.html">
-    <span class="material-symbols-outlined">tabs</span>
-    Pestañas
+    <span class="material-symbols-outlined">location_on</span>
+    GPS
    </a>
 
    <a ${resaltaSiEstasEn(["/camara.html"])} href="camara.html">
-    <span class="material-symbols-outlined">bottom_navigation</span>
-    Barra
+    <span class="material-symbols-outlined">camera</span>
+    Cámara
    </a>
 
    <a ${resaltaSiEstasEn(["/archivos.html"])} href="archivos.html">
-    <span class="material-symbols-outlined">newspaper</span>
-    Forma
+    <span class="material-symbols-outlined">description</span>
+    Archivos y Cámara
    </a>
    
   <a ${resaltaSiEstasEn(["/ayuda.html"])} href="ayuda.html">
-    <span class="material-symbols-outlined">newspaper</span>
-    Forma
+    <span class="material-symbols-outlined">help</span>
+    Ayuda
    </a>
    `
 

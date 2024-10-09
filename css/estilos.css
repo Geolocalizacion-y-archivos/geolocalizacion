@@ -46,7 +46,7 @@ main {
 
 body {
   margin: 0;
-  /* display: none; */
+  display: none;
   font-family: var(--md-sys-typescale-body-large-font);
   font-weight: var(--md-sys-typescale-body-large-weight);
   font-size: var(--md-sys-typescale-body-large-size);

@@ -13,14 +13,14 @@
  "screenshots": [
   {
    "src": "/img/screenshot_horizontal.png",
-   "sizes": "1360x655",
+   "sizes": "1366x652",
    "type": "image/png",
    "form_factor": "wide",
    "label": "GeoMedia"
   },
   {
    "src": "/img/screenshot_vertical.png",
-   "sizes": "499x645",
+   "sizes": "493x645",
    "type": "image/png",
    "form_factor": "narrow",
    "label": "GeoMedia (2)"
